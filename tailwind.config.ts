@@ -25,8 +25,7 @@ export default {
         'footertext':'rgb(46, 133, 148)'
       },
       fontFamily: {
-        dancing: ["Dancing Script", "cursive",],
-        roboto: ["Roboto", "sans-serif"]
+        dancing: ["Dancing Script", "cursive",]
       },
       screens: {
         'amd':'990px',

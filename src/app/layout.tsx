@@ -2,20 +2,12 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { Dancing_Script } from 'next/font/google';
-import { Roboto } from "next/font/google";
 
 const dancingScript = Dancing_Script({
   subsets: ["latin"],
   variable: "--font-dancing-script",
   weight: ["400", "700"]
 });
-
-const roboto = Roboto({
-  subsets: ["latin"],
-  variable: "--font-roboto",
-  weight: ["400", "700"]
-});
-
 
 
 export const metadata: Metadata = {

@@ -1,28 +1,25 @@
 'use client'
 import React, { useState } from 'react'
-import Image from 'next/image'
 // import emailjs from 'emailjs-com';
 
 
 function Appointment() {
     // const [name,setName] = useState("")
     // const [service,setService] = useState("");
-    const [formData, setFormData] = useState({
-        name: "",
-        email: "",
-        doctor:"",
-        time:"",
-        service:"",
-        message: "",
-      });
+    // const [formData, setFormData] = useState({
+    //     name: "",
+    //     email: "",
+    //     doctor:"",
+    //     time:"",
+    //     service:"",
+    //     message: "",
+    //   });
 
     // const handleChange = (e) => {
     //     const { name, value } = e.target;
     //     setFormData({ ...formData, [name]: value });
     // };
     
-    const doctorNames = ["Doctors","Dr. John Smith", "Dr. James Johnson", "Dr. Robert Brown", "Dr. Michael Williams", "Dr. David Jones", "Dr. William Miller", "Dr. Joseph Davis", "Dr. Charles Garcia", "Dr. Daniel Martinez", "Dr. Matthew Anderson"];
-    const clinicServices = ["Cardiac Examination", "Orthopedic Services", "Gynecological Consultation", "Therapy and Medication Treatment", "Physical Therapy", "Pediatric Care", "Allergy Testing", "Cosmetic Procedures", "Pediatric Services", "Chest X-Ray"];
 
     // const sendEmail = (e) => {
     //     e.preventDefault();

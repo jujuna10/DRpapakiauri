@@ -4,7 +4,6 @@ import time from '../../public/7.png'
 import avaiable from '../../public/avaiable.png'
 import experience from '../../public/experience.png'
 import online from '../../public/online.png'
-import { on } from 'events'
 
 
 function Services() {

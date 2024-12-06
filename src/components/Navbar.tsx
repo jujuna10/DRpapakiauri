@@ -1,17 +1,11 @@
 'use client'
 import React, { useState } from 'react';
-import Image from 'next/image';
-import menu from '../../public/menu.png'
-import close from '../../public/close.png'
-
-
 
 
 function Navbar() {
     const [burgerMenu,setBurgerMenu] = useState<boolean>(false)
     const [rotate,setRotate] = useState<boolean[]>([false,false])
     const links: string[] = ['მთავარი', 'ჩემს შესახებ', 'სერვისები', 'გამოცდილება'];
-    const images = [menu,close]
     const scrollToSection = (id: string) => {
         const element = document.getElementById(id);
         if (element) {
