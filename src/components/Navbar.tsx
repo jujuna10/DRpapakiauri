@@ -23,7 +23,7 @@ function Navbar() {
 
     return (
         <div id='მთავარი' className='flex lg:justify-center relative justify-evenly w-full items-center gap-[60%] pl-[10%] lg:pl-0 lg:gap-[10%] pt-12 lg:translate-x-[-8%] translate-x-0 xl:translate-x-[-10%] '>
-            <h1 className='font-dancing text-[35px] text-home font-bold'>dr.nika</h1>
+            <h1 className='font-dancing[0] text-[35px] text-home font-bold'>dr.nika</h1>
             <div className='justify-center items-center gap-12 hidden lg:flex'>
                 {links.map((item: string, index: number) => (
                     <p onClick={() => scrollToSection(item)} key={index} className={`${index === 0 ? 'text-home font-bold' : 'text-links'} hover:cursor-pointer`}>{item}</p>
