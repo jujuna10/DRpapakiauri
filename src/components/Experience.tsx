@@ -1,5 +1,4 @@
 import React from 'react'
-import Image from 'next/image'
 
 function Experience() {
 
@@ -36,7 +35,6 @@ function Experience() {
                 </div>
             ))}
         </div>
-        {/* <Image src='/finally.png' width={1000000000000} height={1000000000} alt='photo' className='w-[20%] h-[20%]' /> */}
     </div>
   )
 }

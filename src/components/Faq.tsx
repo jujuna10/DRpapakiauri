@@ -30,7 +30,6 @@ function Faq() {
                 <div key={index} className='flex flex-col gap-5'>
                     <div className='bg-white p-2 flex justify-between items-center rounded-[20px]'>
                         <p>{item.question}</p>
-                        {/* <button onClick={() => handleOpen(index)}>see more</button> */}
                         <Image src='/arrow.png' width={35} height={35} alt='arrow' onClick={() => handleOpen(index)} className={`duration-300 rotate-180 ${open === index ? 'rotate-[0deg]' : ''}`} />
                     </div>
                     {open === index && <p className='duration-300 bg-[rgb(250,235,215)] p-[5%] sm:p-[2%] rounded-[20px]'>{item.answer}</p>}
